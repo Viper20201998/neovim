@@ -28,8 +28,9 @@ return require("packer").startup(function()
     use("EdenEast/nightfox.nvim") --> nightfox colorsceme for neovim
     use("sainnhe/gruvbox-material")
 
+    use("scrooloose/syntastic")
     --coc
-    use { "neoclide/coc.nvim", branch = "release" }
+    --    use { "neoclide/coc.nvim", branch = "release" }
 
     -- prettier
     use("prettier/vim-prettier")

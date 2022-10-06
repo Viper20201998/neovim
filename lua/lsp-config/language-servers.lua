@@ -46,6 +46,8 @@ local lsp_flags = {
 require('lspconfig')['html'].setup { on_attach = on_attach, capabilities = capabilities, flags = lsp_flags, }
 require('lspconfig')['cssls'].setup { on_attach = on_attach, capabilities = capabilities, flags = lsp_flags, }
 require('lspconfig')['cssmodules_ls'].setup { on_attach = on_attach, capabilities = capabilities, flags = lsp_flags, }
+require('lspconfig')['tsserver'].setup { on_attach = on_attach, capabilities = capabilities, flags = lsp_flags, }
+require('lspconfig')['pyright'].setup { on_attach = on_attach, capabilities = capabilities, flags = lsp_flags, }
 
 
 for _, name in pairs(servers) do
