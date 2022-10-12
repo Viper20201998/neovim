@@ -6,12 +6,12 @@ local sources = {
     formatting.prettier.with({
         filetypes = { "html", "json", "javascript", "css" },
         env = {
-            PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("~/.config/nvim/lua/formatting-config/.prettier.json"),
+            PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("~/.config/nvim/lua/formating-conf/.prettier.json"),
         },
     }),
     formatting.autopep8,
     formatting.stylua.with({
-        extra_args = { "--config-path", vim.fn.expand("~/.config/nvim/lua/formatting-config/stylua.toml") },
+        extra_args = { "--config-path", vim.fn.expand("~/.config/nvim/lua/formating-conf/stylua.toml") },
     }),
 }
 
