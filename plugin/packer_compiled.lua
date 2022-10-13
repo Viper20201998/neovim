@@ -104,11 +104,6 @@ _G.packer_plugins = {
     path = "/home/viper/.local/share/nvim/site/pack/packer/start/cmp_luasnip",
     url = "https://github.com/saadparwaiz1/cmp_luasnip"
   },
-  ["coc.nvim"] = {
-    loaded = true,
-    path = "/home/viper/.local/share/nvim/site/pack/packer/start/coc.nvim",
-    url = "https://github.com/neoclide/coc.nvim"
-  },
   ["gruvbox-material"] = {
     loaded = true,
     path = "/home/viper/.local/share/nvim/site/pack/packer/start/gruvbox-material",
@@ -263,11 +258,6 @@ _G.packer_plugins = {
     loaded = true,
     path = "/home/viper/.local/share/nvim/site/pack/packer/start/vim-kitty",
     url = "https://github.com/fladson/vim-kitty"
-  },
-  ["vim-prettier"] = {
-    loaded = true,
-    path = "/home/viper/.local/share/nvim/site/pack/packer/start/vim-prettier",
-    url = "https://github.com/prettier/vim-prettier"
   },
   vimtex = {
     loaded = true,

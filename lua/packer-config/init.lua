@@ -29,10 +29,10 @@ return require("packer").startup(function()
     use("sainnhe/gruvbox-material")
 
     --coc
-    use { "neoclide/coc.nvim", branch = "release" }
+    --    use { "neoclide/coc.nvim", branch = "release" }
 
     -- prettier
-    use("prettier/vim-prettier")
+    --  use("prettier/vim-prettier")
     -- opacity
     use("xiyaowong/nvim-transparent")
 
