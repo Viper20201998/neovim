@@ -3,12 +3,6 @@ local null_ls = require('null-ls')
 local formatting = null_ls.builtins.formatting
 
 local sources = {
-    formatting.prettier.with({
-        filetypes = { "html", "json", "javascript", "css" },
-        env = {
-            PRETTIERD_DEFAULT_CONFIG = vim.fn.expand("~/.config/nvim/lua/formating-conf/.prettier.json"),
-        },
-    }),
     formatting.autopep8,
     formatting.stylua.with({
         extra_args = { "--config-path", vim.fn.expand("~/.config/nvim/lua/formating-conf/stylua.toml") },
