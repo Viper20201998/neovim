@@ -32,6 +32,7 @@ return require("packer").startup(function()
     --    use { "neoclide/coc.nvim", branch = "release" }
 
     -- prettier
+    use("MunifTanjim/prettier.nvim")
     --  use("prettier/vim-prettier")
     -- opacity
     use("xiyaowong/nvim-transparent")

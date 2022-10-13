@@ -31,3 +31,5 @@ map("n", "<C-p>", ":BufferPick<CR>", opts)
 map("n", "<leader>bb", ":BufferOrderByBufferNumber<CR>", opts)
 map("n", "<leader>bd", ":BufferOrderByDirectory<CR>", opts)
 map("n", "<leader>bl", ":BufferOrderByLanguage<CR>", opts)
+
+map("n", "<leader>fp", ":Prettier<CR>", opts)
